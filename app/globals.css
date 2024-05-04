@@ -2,6 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
 :root {
   --background: 0 0% 96%;
   --foreground: 0 0% 20%;
