@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
 .no-scrollbar::-webkit-scrollbar {
   display: none;
 }
@@ -11,6 +10,7 @@
   scrollbar-width: none;
   -ms-overflow-style: none;
 }
+
 
 :root {
   --background: 0 0% 96%;
@@ -64,6 +64,6 @@
   }
 
   body {
-    @apply text-foreground antialiased bg-[#F4F4F4];
+    @apply text-foreground antialiased;
   }
 }
